@@ -1,0 +1,48 @@
+.red {
+	color: red;
+}
+
+.square {
+	border: 1px solid;
+	width: 100px;
+	height: 100px;
+}
+
+.square.active {
+	border-color: red;
+}
+
+.w-50p{
+	width: 50px;
+} 	
+
+.h-50p {
+	height: 50px;
+}
+
+div[data-id] {
+	color: blue;
+}
+
+.circle {
+	border-radius: 50%;
+	background-color: orange;
+}
+
+.position-absolute {
+	position: absolute;
+}
+
+.d-block {
+	display: block;
+}
+
+.cell {
+	border: 1px solid;
+	border-radius: 3px; 
+	width: 50px;
+	height: 50px
+}
+.row {
+	display: flex;
+}

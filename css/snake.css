@@ -1,0 +1,28 @@
+#gameArea .rows {
+    display: flex;
+}
+
+#gameArea .cells {
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+#gameArea .snake-body {
+    background-color: green;
+}
+
+#gameArea .snake-head {
+    background-color: red;
+}
+
+#gameArea .food {
+    background-color: orange;
+}
+
+#lavelform {
+    margin-left: 30px;
+     color: greenyellow;
+     font-size: 30px;
+}
